@@ -5,8 +5,8 @@
 
 :root { /* default theme=dark */
   
-  --bkg-colr: #eee;
-  --fnt-colr: #000000;
+  --bkg-colr: black;
+  --fnt-colr: white;
 
   --texb: rgba(0, 0, 0, 0.8);
   
