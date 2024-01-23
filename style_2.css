@@ -67,6 +67,9 @@
   
     height: max-content;
 }
+/* Style for the top-pic class */
+/* Style for the image in the first topi corners to the image */
+
 .s0{
   background-color: #00000000;
 }
@@ -78,6 +81,9 @@
     overflow: hidden;
     position: fixed;
     
+  }
+    .top-pic p2{
+    border-radius: 50px;
   }
   canvas{
     margin: 0;
