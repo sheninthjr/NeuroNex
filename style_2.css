@@ -3,17 +3,15 @@
   display     : block;
 }
 
-:root { /* default theme=dark */
-  
-  --bkg-colr: black;
-  --fnt-colr: white;
+:root {
+  /* default theme=dark */
 
-  --texb: rgba(0, 0, 0, 0.8);
-  
-  --scrl1 :rgb(0, 0, 0);
-  --scrl:rgba(88, 88, 88, 0.74);
-  
-  --circ: rgba(90, 90, 90, 0.4);
+  background: #304352;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d7d2cc, #304352);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d7d2cc, #304352);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 [data-theme = "light"] {
@@ -764,7 +762,7 @@ background-size: 60%;
 }
 .p2 {
   
-    background-image: url("./t.webp"); 
+    background-image: url("./logo-removebg-preview.png"); 
     left: 3%;
     
   /* background-image: url("./Group 25.png");
@@ -772,7 +770,7 @@ background-size: 60%;
 
   background-position: center;
   background-size: contain;background-repeat: no-repeat;
-  background-size: 57%;
+  background-size: 130%;
     border-radius:  0%;
     top: -10%;
     /* background-image: url("./photoroom (13).webp");
