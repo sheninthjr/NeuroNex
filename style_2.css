@@ -16,6 +16,7 @@
 
 body {
     /* default theme=dark */
+    color: black;
 
     background: #304352;
     /* fallback for old browsers */
