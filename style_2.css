@@ -383,7 +383,7 @@ transform: rotate(90deg);
     font-weight: 100;
     font-size: 1.2vw;
     font-family: "OCRAq";
-    color: #b8b8b8b4;
+    color: black;
     
     transition: 0.3s ease-in-out;
   }
