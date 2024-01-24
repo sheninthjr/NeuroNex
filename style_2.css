@@ -841,7 +841,6 @@ font-size: 32px;
 .text-9,
 .text-11 {
   color: rgba(0, 0, 0, 0);
-  -webkit-text-stroke: 1px var(--fnt-colr);;
 }
 
 
@@ -2194,7 +2193,7 @@ display: none;
     animation: none;
     }
   .main-title{
-    font-size: 9vh;
+    font-size: 8vh;
   }
   .lines{
     top: 50%;
@@ -2227,6 +2226,7 @@ display: none;
     width: 90%;
   }
   .text-1{    font-size: 6vw;
+    color: black;
   }
   .text-2{
     top: 30%;
