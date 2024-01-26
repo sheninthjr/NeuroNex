@@ -26,18 +26,6 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
-[data-theme = "light"] {
-  
-  --bkg-colr: #474646f6;
-  --fnt-colr: #b9a4a4;
-
-  --texb: rgba(255, 255, 255, 0.8);
-
-  --scrl:rgb(255, 255, 255);
-  --scrl1:rgba(163, 163, 163, 0.7);
-  
-  --circ: rgba(102, 102, 102, 0.4);
-}
 @font-face {
 
   font-family: "OCRAq";
