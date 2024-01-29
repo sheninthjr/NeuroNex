@@ -16,14 +16,12 @@
 
 body {
     /* default theme=dark */
-    color: black;
-
-    background: #304352;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #d7d2cc, #304352);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #d7d2cc, #304352);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #2980B9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
 @font-face {
@@ -69,8 +67,12 @@ body {
 /* Style for the image in the first topi corners to the image */
 
 .s0{
-  background-color: #00000000;
-}
+background: #2980B9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
   .bg{margin: 0;
     padding: 0;
       height: 100%;
