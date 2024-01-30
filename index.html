@@ -319,13 +319,15 @@ background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10
         <img class="imd c" src="./block.gif">
         <div class="slogan">UI/UX</div>
             <div class="descriptions">
+              <a href=""> 
                 <h1>UI/UX</h1>
                 <p>
                   In the UI/UX design workshop, participants delve into crafting visually appealing interfaces(UI) and optimizing user experience(UX). The workshop fosters practical skills, empowering attendees to create engaging digital solutions that prioritize both aesthetics and user satisfaction.
                 </p>
                 <button id="ev1" onClick="reg_view(this.id)"><a>
                   More</a>
-                </button>
+                </button></a>
+               
             </div>
         </div>
         <div class="card" data-aos="zoom-in" data-aos-duration="300" data-aos-delay="100" data-aos-anchor="#rapper">
@@ -390,12 +392,14 @@ background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10
           <img class="imd c" src="./block.gif">
           <div class="slogan">Code Sprint Shutdown</div>
               <div class="descriptions">
+              
                   <h1>Code Sprint</h1>
                   <p>Build,Break ,innovate join the 'codesprint showdown' revolution,Gear up,hacker!,The coding marathon is on ,level up your skills,design for good win big,launch your ideas
                     </p>
-                  <button id="ev5" onClick="reg_view(this.id)"><a>
-                    More</a>
+                  <button id="ev5" onClick="reg_view(this.id)"><a> More</a>
                   </button>
+         
+                  
               </div>
           </div>
       <div class="card" data-aos="zoom-in" data-aos-duration="300" data-aos-delay="150" data-aos-anchor="#rapper">
@@ -1020,7 +1024,8 @@ $(document).ready(function(){
               case "ev4":
                 window.open("./utopia_ui.html", "_blank");break;
               case "ev5":
-                window.open("./code_sprint_showdown.html", "_blank");break;
+               console.log("Opening code_sprint_showdown.html");
+                window.open("./code_sprint_showdown.html","_blank");break;
 
               case "ev6":
                 window.open("./paper-pinnacle.html", "_blank");break;
